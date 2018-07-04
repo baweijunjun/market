@@ -1,0 +1,43 @@
+.Bigbox{
+    width: 100%;
+    height: 100%;
+}
+.ColltOne{
+    width: 100%;
+    height:0.8rem;
+}
+.ColltOne li{
+     text-align: center;
+     line-height: 0.8rem;
+}
+.ColltOne li input{
+    width:80%;
+    text-align: center;
+    padding: 6px;
+    border:none;
+    border-radius: 10px;
+}
+.ColltLeft{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+aside{
+    background: #eee;
+}
+aside p{
+    line-height: 1rem;
+    padding: 0 60px;
+}
+ .ColltRight{
+    width: 70%;
+    height: 100%;
+    float: right;  
+}
+.ColltRight dl{
+    float: left;
+    width:28%;
+    height:229px;
+    padding: 15px;
+    text-align: center;
+} 

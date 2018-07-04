@@ -1,0 +1,31 @@
+.common{
+    width: 100%;
+} 
+.common dl{
+    width:49.5%;
+    height:533px;
+    float: left;
+    border:1px solid #ccc;
+    border-right:none;
+    text-align: center;
+}
+.common dl dt{
+    padding-top:10px;
+}
+.common dl dd p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height:90px;
+}
+.common dl dd p span{
+    font-size: 50px;
+}
+.to{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}

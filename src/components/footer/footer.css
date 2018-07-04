@@ -1,0 +1,20 @@
+    footer {
+        width: 100%;
+        height: .3rem;
+        position: fixed;
+        bottom: .5rem;
+        left: 0;
+    }
+    footer img {
+        width: 60px;
+        height: 60px;
+    }
+    footer ol {
+        display: flex;
+    }
+    footer ol li {
+        background: #fff;
+        line-height: .3rem;
+        flex: 1;
+        text-align: center;
+    }

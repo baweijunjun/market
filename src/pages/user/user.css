@@ -1,0 +1,74 @@
+.wrapBox{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.headers{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.headers li{
+    font-size: 50px;
+    flex: 1;
+    text-align: center;
+    line-height: 100px;
+}
+.banners{
+    width:100%;
+    height: 300px;
+    background: #FC5842;
+}
+.banners h2{
+    line-height: 140px;
+    color: #fff;
+    margin-left: 50%;
+}
+.banners .img{
+    width:180px;
+    height:180px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.banners .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.shops{
+    width:100%;
+    height:200px;
+}
+.shops h1{
+    line-height: 200px;
+    padding-left: 150px;
+    font-size: 50px;
+    color: #FD7E7E;
+}
+.wait{
+    width: 100%;
+    height: 200px;
+    display:flex;
+}
+.wait i{
+    display: block;
+    font-size: 80px;
+}
+.wait li{
+    flex: 1;
+    text-align: center;
+}  
+.lists{
+    width: 100%;
+    height:300px;
+    margin-top: 50px;
+}
+.lists p{
+    line-height: 100px;
+    margin-left: 30px;
+}
+.lists i{
+    font-size: 70px;
+}

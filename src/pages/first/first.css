@@ -1,0 +1,94 @@
+header{
+  width:100%;
+  height:0.9rem;
+  position: fixed;
+  top:0;
+  left:0;
+  background: #fff;
+  z-index: 999;
+}
+header ul{
+  display:flex;
+}
+header ul li{
+  line-height:1rem;
+  flex:1;
+  text-align:center;
+  color: #CE0C2C;
+}
+header ul li input{
+  border:none;
+  background:#eee;
+  height:0.6rem;
+  line-height:0.6rem;
+  border-radius:8px;
+  text-align:center;
+}
+.swiper-container {
+  height: 3.8rem;
+  margin-top: 100px;
+}
+.swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+.conation{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conation dl{
+  width:25%;
+  margin-top: .3rem;
+  text-align: center;
+}
+.touTiao{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.bs1{
+    padding-left: 0.1rem;
+    position: relative;
+}
+.bs1 span{
+    position: absolute;
+    right: 0.20rem;
+    top: 50%;
+}
+.bs1 dl{
+    width: 100%;
+}
+.bs1 dl dt{
+    float: left;
+    width:10%;
+    padding: 5px;
+    color: #FF9C5F;
+}
+.bs1 dl dd p{
+    color: #000;
+    line-height: 0.4rem;
+}
+.day{
+  width:100%;
+  height:0.6rem;
+  margin-top: 0.15rem;
+}
+.day li{
+  text-align: center;
+  line-height: 0.6rem;
+}
+.day li:nth-child(1){
+    float: left;
+    color: #FF9C5F;
+    padding-left: 0.4rem;
+}
+.day li:nth-child(2){
+  float: right;
+  padding-right: 0.4rem;
+}
+.wrap{
+  width:100%;
+  height: 100%;
+}

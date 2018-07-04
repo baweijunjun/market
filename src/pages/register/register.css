@@ -1,0 +1,31 @@
+ .reg {
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        margin-top: 70px;
+        border-bottom: 1px solid #ccc;
+        line-height: 80px;
+    }
+    label {
+        width: 15%;
+        display: inline-block;
+        text-align: center;
+    }
+    input {
+        width: 85%;
+        border: none;
+        text-align: center;
+    }
+    button {
+        width: 60%;
+        margin: 0 20%;
+        text-align: center;
+        border: none;
+        background: none;
+        margin-top: 50px;
+        padding: 25px 0;
+        background: #FC4141;
+        color: #fff;
+        border-radius: 100px;
+    }
